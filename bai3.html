@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = parseInt(prompt("nhap vao so can tinh: "));
+
+    if (typeof n !="number" ) {
+        alert("ban can nhap vao mot so!!");
+    } else {
+        alert(giaiThua(n));
+    }
+
+    function giaiThua(x) {
+            let result = 1;
+            for(let i =1; i<=x; i++){
+            result *=i;
+            }
+            return result;
+        }
+
+
+</script>
+
+</body>
+</html>

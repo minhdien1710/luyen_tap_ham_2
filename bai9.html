@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let str1 = prompt();
+    let str2 = prompt();
+
+    function seacrh(str1, str2) {
+        let count = 0;
+        for (i = 0; i < str1.length; i++) {
+            if (str2 === str1[i]) {
+                count += 1
+            }
+        }
+        alert("ky tu " + str2 + " xuat hien " + count + " lan");
+    }
+
+    seacrh(str1, str2);
+</script>
+</body>
+</html>

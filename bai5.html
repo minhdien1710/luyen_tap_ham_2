@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("nhap a: "));
+    let b = parseInt(prompt("nhap b: "));
+    let c = parseInt(prompt("nhap c: "));
+
+    function findMin(a, b, c) {
+        let min = a;
+        if (a < b && a < c) {
+            min = a;
+        } else if (b < c) {
+            min = b;
+        } else {
+            min = c;
+        }
+        alert(min);
+    }
+
+    findMin(a, b, c);
+</script>
+
+</body>
+</html>
